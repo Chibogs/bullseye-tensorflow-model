@@ -1,3 +1,14 @@
+## About this Repository
+
+This repository is based on the [TensorFlow Models](https://github.com/tensorflow/models) project (Apache 2.0 License).  
+It has been modified to ensure compatibility when running **MobileNet SSD v2 FPN Lite**.  
+
+### Key Modifications
+- Updated `tf_keras` references to `tf.keras`.  
+- Removed conflicting imports (e.g., Keras/EfficientNet) to resolve dependency issues.  
+
+All other files and documentation are originally from TensorFlow Models. Please see the [LICENSE](./LICENSE) for details.
+
 <div align="center">
   <img src="https://storage.googleapis.com/tf_model_garden/tf_model_garden_logo.png">
 </div>
